@@ -2,51 +2,96 @@ body {
     font-size: 16px;
     margin: 0px;
     font-family: 'Heebo', sans-serif;
-    background-color: rosybrown;
+    background-color: black;
+}
+
+p{
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 0%;
 }
   
 /** HEADER **/
 #header-nav {
-    background-color: #FF5B53;
+    background-color: #9B1A1C;
+    height: 60px;
 
 }
   
 #logo-img {
     width: auto;
-    height: 50px;
+    height: 40px;
+    padding-left: 20%;
+    margin-bottom: auto;
 }
 
 .navbar-brand{
-    padding-top: 2px;
     line-height: 0;
-    padding-left: 20px;
+    padding-left: 3%;
+    display: inline-block;
 
 }
 
 .navbar-brand h1{
-    font-weight: bolder;
-    font-family: cursive;
-    color: red;
+    font-weight: 200;
+    font-family: 'Heebo', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
 }
 
-.navbar-brand h1:hover{
-    color:rgb(75, 170, 67);
+.ml-auto{
+
+    left: auto !important;
+    right: 0px;
 }
+
+
 
 a:hover {
     color: #000000;
     text-decoration: none;
-  }
+}
   
-  a:not([href]):not([class]) {
+
+a:not([href]):not([class]) {
     color: inherit;
     text-decoration: none;
-  }
+}
   
-  a:not([href]):not([class]):hover {
+a:not([href]):not([class]):hover {
     color: inherit;
     text-decoration: none;
-  }
+}
   
-  
- 
+
+.bi-info-circle{
+    padding-right: 10px;
+}
+
+.bi-award {
+    padding-right: 10px;
+}
+
+.bi-telephone-outbound-fill {
+    padding-right: 15px;
+}
+
+
+
+#navbarSupportedContent {
+    background-color: #9B1A1C;
+    color: black;
+    width: 100%;
+    padding: 30px;
+}
+
+.header-nav> .navbar-text {
+    color: white !important;
+    padding-right: 5030px;
+    font-family: 'Heebo' , sans-serif;
+    opacity: 1;
+
+}
