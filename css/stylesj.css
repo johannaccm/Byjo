@@ -22,12 +22,12 @@ p{
 /** HEADER **/
 
 .header-links> a:link{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 a:link, a:active {
-    color:black;
+    color:white;
 }
 
 .dropbtn {
