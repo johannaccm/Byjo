@@ -21,6 +21,15 @@ p{
 
 /** HEADER **/
 
+.header-links> a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:link, a:active {
+    color:black;
+}
+
 .dropbtn {
     background-color: #4caf4f00;
     color: white;
@@ -227,7 +236,7 @@ a:not([href]):not([class]):hover {
     text-align: center;
     margin-bottom: 15px;
     background-size: cover;
-    background-image: url('/Images/inicio-foto.webp');
+    background-image: url('https://raw.githubusercontent.com/johannaccm/Byjo/master/Images/inicio-foto.webp');
     background-position: center;
 }
 
@@ -249,13 +258,13 @@ a:not([href]):not([class]):hover {
 }
 
 #menu-tile {
-    background-image: url('/Images/Menu-img.jpg');
+    background-image: url('https://raw.githubusercontent.com/johannaccm/Byjo/master/Images/Menu-img.jpg');
     background-repeat: no-repeat;
     background-position: center; 
 }
 
 #specials-tile {
-    background-image: url('/Images/specials-img.jpg');
+    background-image: url('https://raw.githubusercontent.com/johannaccm/Byjo/master/Images/specials-img.jpg');
     background-repeat: no-repeat; 
     background-position: center;
 }
