@@ -12,19 +12,11 @@
     #media-tile, #specialtile {
         display: none;
     }
+
+    #main-banner-jc:after{
+        background-color: rgba(0, 0, 0, 0.253);
+    }
     
-
-}
-
- /****Small devices only****/
-@media (min-width: 768px) and (max-width: 991px) {
- 
-    
-}
-
- /****Extra Small devices only****/
- @media (max-width: 767px) {
- 
     #menu-tile, #specials-tile, #map-tile {
         height: 250px;
         width: 90%;
@@ -39,4 +31,146 @@
         background-size: cover;
     }
 
+    #hours {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
+    #description {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
+    #address {
+        text-align: center;
+        padding-top: 10px;
+    }
+ 
+    #copyright> hr{
+        width: 100%;
+        border-width: 00.5px;
+    
+    }
+    
+    .panel-footer {
+        padding-top: 5%;
+        padding-bottom: 7%;
+    }
+    
+
 }
+
+ /****Small devices only****/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #hours {
+        text-align: center;
+    }
+    
+    #description {
+        text-align: center;
+    }
+    
+    #address {
+        text-align: center;
+    }
+
+    #main-banner-jc:after{
+        background-color: rgba(0, 0, 0, 0.253);
+    }
+    
+    #menu-tile, #specials-tile, #map-tile {
+        height: 250px;
+        width: 90%;
+        position: relative;
+        border-radius: 10px;
+        background-color: white;
+        overflow: hidden;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+        background-size: cover;
+    }
+
+    #hours {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
+    #description {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
+    #address {
+        text-align: center;
+        padding-top: 10px;
+    }
+ 
+    #copyright> hr{
+        width: 100%;
+        border-width: 00.5px;
+    
+    }
+    
+    .panel-footer {
+        padding-top: 5%;
+        padding-bottom: 7%;
+    }
+    
+}
+
+ /****Extra Small devices only****/
+ @media (max-width: 767px) {
+ 
+    #main-banner-jc:after{
+        background-color: rgba(0, 0, 0, 0.253);
+    }
+
+    #menu-tile, #specials-tile, #map-tile {
+        height: 250px;
+        width: 90%;
+        position: relative;
+        border-radius: 10px;
+        background-color: white;
+        overflow: hidden;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+        background-size: cover;
+    }
+
+    #hours {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
+    #description {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
+    #address {
+        text-align: center;
+        padding-top: 10px;
+    }
+ 
+    #copyright> hr{
+        width: 100%;
+        border-width: 00.5px;
+    
+    }
+    
+    .panel-footer {
+        padding-top: 5%;
+        padding-bottom: 7%;
+    }
+ }

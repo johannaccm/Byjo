@@ -31,7 +31,7 @@
         <nav class="navbar navbar-dark">
           <div class="container">
             
-          <!-- Logo and name -->
+          <!-- Logo name and info -->
           <a href="index.html">
              <img src="https://raw.githubusercontent.com/johannaccm/Byjo/master/Images/Asian-logo.png" id="logo-img">
           </a>
@@ -40,6 +40,34 @@
               <h1>The hot <b>Asian Food</h1></b>
               <p class="header-info">Kosher certified</p>
           </div>
+
+          <ul class="menu-nav d-none d-lg-block">
+
+            <li class="active px-2 border-right">
+              <a href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="px-2 border-right">
+              <a href="index.html"><i class="bi bi-info-circle"></i>About</a>
+            </li>
+
+            <li class="dropdown px-2">
+
+              <button class="dropbtn">Menu</button>
+
+              <div class="dropdown-content">
+                <a  href="#">Chicken</a>
+                <a  href="#">Beef</a>
+                <a  href="#">Sushi</a>
+              </div>
+
+            </li>
+
+            <li class="px-2 border-left">
+              <a class="n" href="index.html"><i class="bi bi-award"></i>Awards</a>
+            </li>
+
+          </ul>
 
           <span class="header-info ml-auto d-none d-sm-none d-md-none d-lg-block">
             <i class="bi bi-telephone-outbound-fill float-left"></i>
@@ -74,7 +102,6 @@
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Chicken</a>
                     <a class="dropdown-item" href="#">Beef</a>
-                    <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Sushi</a>
                   </div>
 
@@ -85,37 +112,35 @@
                 </li>
 
               </ul>
-            </div>
+            </div> <!-- End menu toggle -->
           </div>  
         </nav>     
     </header>
 
-    <div class="container">
+    <div class="container"> <!-- Main photo -->
       <div class="row">
         <div class="col-md-12 mt-5">
 
           <div id="main-banner-jc">
             <div class="container">
               <div class="row">
-
-                <div id="info-banner" class="col-md-6 col-xs-12 mt-5 mr-auto "> 
-                  <h1> Welcome to the best asian-american restaurant </h1>
-                  <p>This website is made for educational purpouses only</p>
-                  <a target="_blank" href="https://www.coursera.org/learn/html-css-javascript-for-web-developers?">
-                    <button type="button" class="btn btn-primary ">Visit coursera</button>
-                  </a> 
-                </div>
-
+                <div class="color-overlay">
+                  <div id="info-banner" class="col-md-6 col-xs-12 mt-5 mr-auto "> 
+                    <h1> Welcome to the best asian-american restaurant. </h1>
+                    <p>This website is made for educational purpouses only.</p>
+                    <a target="_blank" href="https://www.coursera.org/learn/html-css-javascript-for-web-developers?">
+                      <button type="button" class="btn btn-primary ">Visit coursera</button>
+                    </a>
+                  </div>
+                </div>    
               </div>  
             </div>
-          </div>
-  
-
-        </div>
+          </div> 
+         </div>
       </div>
-    </div>
+    </div> <!-- End Main photo -->
 
-    <div class="container">
+    <div class="container"> <!-- Home Tiles -->
       <div class="row my-5">
        
         <div class="col-lg-4 col-md-6 col-xs-12 ">
@@ -140,7 +165,47 @@
         </div>
 
       </div>
+    </div> <!-- End Home Tiles -->
+  
+  <footer class="panel-footer">
+    <div class=container>
+      <div class="row">
+
+        <section id="hours" class="col-lg-4 col-md-12">
+          <span><i class="bi bi-clock pr-2"></i><b>Hours</b></span><br>
+          Sun-Thurs 11:15am to 10:00pm<br>
+          Fri 11:15 to 03:00pm<br>
+          Saturday closed
+        </section>
+
+        <section id="description" class="col-lg-4 col-md-12">
+          <a href="#"><img src="/Images/Asian-logo.png" width="70px"></a><br>
+          <span><b>Hot Asian Food </b> is a delicious mix of asian and american
+            food. Therefore you will find <i>tastefull dishes</i> from Japan and china
+            to United States of America.  
+          </span><br>
+        </section>
+
+
+        <section id="address" class="col-lg-4 col-md-12">
+          <span><i class="bi bi-geo-alt-fill pr-2"></i><b>Address</b></span><br>
+          <a target="_blank" href="https://goo.gl/maps/VsK71GeedPTgvQL49">7105 Reistertown Road <br>
+          Baltimore, MD 21215 </a>
+          <p>* Delivery area within 3-4 miles,<br>
+          with minimum order of <b>$20</b>.</p>
+
+        </section>
+
+        <section id="copyright" class="col-sm-12">
+          <hr>
+          <b>© 2021 All rigths reserved By:jo</b><br>
+          <i class="bi bi-code-slash pr-2"></i> Developed and designed by <a target="_blank" href="https://instagram.com/byjo.cl"><i class="bi bi-instagram px-2 "></i>Johanna Caraballo</a>
+        </section>
+
+      </div>
     </div>
+  </footer>  
+
 
 
 
