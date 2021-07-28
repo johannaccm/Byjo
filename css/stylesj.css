@@ -28,6 +28,7 @@ p{
 
 a:link, a:active {
     color:white;
+    text-decoration: none;
 }
 
 .dropbtn {
