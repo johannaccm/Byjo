@@ -172,13 +172,13 @@ a:not([href]):not([class]):hover {
 }
 
 #menu-tile {
-    background-image: url ("https://raw.githubusercontent.com/johannaccm/Byjo/master/Images/Menu-img.jpg");
+    background-image: url("https://raw.githubusercontent.com/johannaccm/Byjo/master/Images/Menu-img.jpg");
     background-repeat: no-repeat;
     background-position: center; 
 }
 
 #specials-tile {
-    background-image: url ("https://raw.githubusercontent.com/johannaccm/Byjo/master/Images/specials-img.jpg");
+    background-image: url("https://raw.githubusercontent.com/johannaccm/Byjo/master/Images/specials-img.jpg");
     background-repeat: no-repeat; 
     background-position: center;
 }
