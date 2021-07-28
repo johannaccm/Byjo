@@ -172,7 +172,7 @@ a:not([href]):not([class]):hover {
 }
 
 #menu-tile {
-    background-image: url('../images/menu-img.jpg');
+    background-image: url('https://raw.githubusercontent.com/johannaccm/Byjo/master/Images/Menu-img.jpg');
     background-repeat: no-repeat;
     background-position: center; 
 }
