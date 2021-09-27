@@ -11,5 +11,3 @@
     window.byeSpeaker = byeSpeaker;
 
 })(window);
-
-window.byeSpeaker = byeSpeaker;
