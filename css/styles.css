@@ -405,6 +405,11 @@ a:not([href]):not([class]):hover {
     to {-webkit-transform: rotate(360deg);}
 }
 
-.titles{
-    padding: 30px 0;
+
+.menu-item-photo img{
+    border-radius: 10px;
+}
+
+#menu-categories-title{
+    padding: 30px 0 20px 0;
 }
