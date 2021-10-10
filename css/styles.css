@@ -361,6 +361,7 @@ a:not([href]):not([class]):hover {
 
 .category-tile img{
     border-radius: 15px;
+    width: 100%;
 }
 
 .category-tile img:hover{
@@ -413,3 +414,5 @@ a:not([href]):not([class]):hover {
 #menu-categories-title{
     padding: 30px 0 20px 0;
 }
+
+
